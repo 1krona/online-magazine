@@ -1,0 +1,41 @@
+<?php
+
+$rpp = 10; // results per page
+$adjacents = 4;
+
+$page = intval($_GET["page"]);
+if($page<=0) $page = 1;
+
+$reload = $_SERVER['PHP_SELF'];
+
+// connect to your DB:
+$link_id = mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());
+mysql_select_db($dbname, $link_id);
+
+// select appropriate results from DB:
+$sql = "SELECT * FROM table_name WHERE table_field LIKE '%search string%' ORDER BY field_name";
+$result = mysql_query($sql, $link_id);
+
+// count total number of appropriate listings:
+$tcount = mysql_num_rows($result);
+
+// count number of pages:
+$tpages = ($tcount) ? ceil($tcount/$rpp) : 1; // total pages, last page number
+
+$count = 0;
+$i = ($page-1)*$rpp;
+while(($count<$rpp) && ($i<$tcount)) {
+    mysql_data_seek($result,$i);
+    $query = mysql_fetch_array($result);
+
+    // output each row:
+    echo "<p>" . $query['table_field_1'] . ", " . $query['table_field_2'] . "</p>\n";
+
+    $i++;
+    $count++;
+}
+
+// call pagination function:
+include("paginate.php");
+echo paginate_three($reload, $page, $tpages, $adjacents);
+?>

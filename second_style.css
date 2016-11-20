@@ -1,0 +1,438 @@
+/* INDEX STIL FÖR ARIKLARNA */
+
+.artikel {
+	margin: 0;
+	float: left;
+	background-color: #fff;
+	width: 606px;
+}
+.artikel_rubrik{
+	padding: 5px 0;
+	background-image: url(pics/topmenu_bg2.png);
+	background-repeat: repeat-x;
+	background-color: #020202;
+	text-align: center;
+	border-bottom: #232323 1px solid;
+}
+.artikel_bild{
+
+}
+.artikel_rubrik h1 a:link, .artikel_rubrik h1 a:visited {
+	color: #eee !important;
+	text-decoration: none;
+	font-weight: 0;
+	font-family: Impact, sans-serif;
+	}
+.artikel_rubrik h1 a:active, .artikel_rubrik h1 a:hover {
+	text-decoration: underline;
+	color: #c71809;
+	font-weight: 700;
+	}	
+.artikel_innehall{
+	margin: 0;
+	padding: 15px;
+	float: left;
+
+}
+.artikel_innehall p a{
+	text-decoration: none;
+	color: #000
+	}
+.artikel_tid {
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+}
+.artikel fieldset{
+	float: left;
+}
+
+.artikel2 {
+	border: 1px black solid;
+	border-left: none;
+	width: 302px;
+	margin: 0;
+	float: left;
+	background-color: #fff;
+	height: 151px;
+}
+.artikel_rubrik2{
+	padding: 5px 0;
+	background-image: url(pics/title_bg.png);
+	background-repeat: repeat-x;
+	background-color: #020202;
+	text-align: center;
+}
+.artikel_rubrik2 p a:link, .artikel_rubrik2 p a:visited {
+	color: #eee !important;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: arial black, sans-serif;
+	}
+.artikel_rubrik2 p a:active, .artikel_rubrik2 p a:hover {
+	text-decoration: underline;
+	color: #c71809;
+	font-weight: 700;
+	}	
+.artikel_beskrivning2{
+	margin: 0;
+	padding: 15px;
+	float: left;
+	background-color: #fff;
+}
+.artikel_beskrivning2 p a{
+	float: left;
+	text-decoration: none;
+	color: #000 !important;
+}
+.artikel_tid2 {
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+}
+.artikel2 fieldset{
+	float: left;
+}
+.artikel3 {
+	border: 1px black solid;
+	border-right: none;
+	width: 302px;
+	margin: 0;
+	float: left;
+	background-color: #fff;
+	height: 151px;
+}
+.artikel_rubrik3{
+	padding: 5px 0;
+	background-image: url(pics/title_bg.png);
+	background-repeat: repeat-x;
+	background-color: #020202;
+	text-align: center;
+}
+.artikel_rubrik3 p a:link, .artikel_rubrik3 p a:visited {
+	color: #eee !important;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: arial black, sans-serif;
+	}
+.artikel_rubrik3 p a:active, .artikel_rubrik3 p a:hover {
+	text-decoration: underline;
+	color: #c71809;
+	font-weight: 700;
+	}	
+.artikel_beskrivning3{
+	margin: 0;
+	padding: 15px;
+	float: right;
+	background-color: #fff;
+}
+.artikel_beskrivning3 p a{
+	float: left;
+	text-decoration: none;
+	color: #000 !important;
+}
+.artikel_tid3 {
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+}
+.artikel3 fieldset{
+	float: left;
+}
+
+.artikel4 {
+	float: right;
+	background-color: #fff;
+	width: 606px;
+}
+.artikel_rubrik4{
+	padding: 5px 0;
+	background-image: url(pics/topmenu_bg2.png);
+	background-repeat: repeat-x;
+	background-color: #020202;
+	text-align: center;
+}
+.artikel_bild4{
+	float: right;
+	height: 160px;
+	width: 240px;
+	}
+.artikel_rubrik4 h3 a:link, .artikel_rubrik4 h3 a:visited {
+	color: #eee !important;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: arial black, sans-serif;
+	}
+.artikel_rubrik4 h3 a:active, .artikel_rubrik4 h3 a:hover {
+	text-decoration: underline;
+	color: #c71809;
+	font-weight: 700;
+	}	
+.artikel_innehall4{
+	padding: 15px;
+	background-color: #fff;
+}
+.artikel_innehall4 p a{
+	text-decoration: none;
+	color: #000
+}
+.artikel_tid4 {
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+}
+.artikel4 fieldset{
+	float: left;
+}
+
+.artikel5 {
+	border: 1px #313131 solid;
+	border-left: none;
+	border-right: none;
+	width: 606px;
+	margin: 0;
+	float: right;
+	background-color: #fff;
+}
+.artikel_rubrik5{
+	margin: 10px 0 0 10px;
+	float: left;
+	text-align: left;
+	text-align: center;
+	}
+.artikel_bild5{
+	float: left;
+	height: 160px;
+	width: 240px;
+}
+.artikel_rubrik5 h1 a:link, .artikel_rubrik5 h1 a:visited {
+	color: #0c85d4 !important;
+	text-decoration: none;
+	font-weight: 700;
+	text-decoration: underline;
+	font-family: arial black, sans-serif;	
+	}
+.artikel_rubrik5 h1 a:active, .artikel_rubrik5 h1 a:hover {
+	text-decoration: underline;
+	color: #c71809;
+	font-weight: 700;
+	}	
+.artikel_beskrivning5{
+	margin: 0;
+	background-color: #fff;
+}
+.artikel_beskrivning5 p a{
+	text-decoration: none;
+	color: #000
+	}
+.artikel_tid5 {
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+}
+.artikel5 fieldset{
+	float: left;
+}
+/* VISA ARTIKEL FRÅN INDEX MED KOMMENTARER */
+
+#view_post {
+	width: 606px;
+	float: right;
+	background-color: #fff;
+	color: #020202;
+}
+#view_post_title{
+	padding: 5px 0;
+	background-image: url(pics/topmenu_bg2.png);
+	background-repeat: repeat-x;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	}
+#view_post_content{
+	margin: 0 20px;
+	
+	
+}
+#view_post_comments{
+	float: right;
+	clear: right;
+	padding: 0 20px 0 0;
+	width: 300px;
+	text-align: left;
+}
+
+#view_post_time{
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+}
+#post_post_comment{
+	clear: both;
+	float:left;
+}
+#post_post_comment textarea{
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin: 10px 0 0 20px;
+	clear: left;
+}
+#post_post_comment input{
+	float: left;
+	clear: left;
+	margin: 5px 0 0 20px;
+}
+/* VISA RESULTAT FÖR RANKADE ARTIKLAR */
+.view_comments_artikel{
+	width: 476px;
+	border: 1px solid black;
+	margin: 0 0 0 200px;
+	float: left;
+	background-color: #fff;
+	text-align: center;	
+}
+.view_comments_title{
+	width: 476px;
+	padding: 5px 0;
+	background-image: url(pics/topmenu_bg2.png);
+	background-repeat: repeat-x;
+	background-color: #000;
+	color: #fff;
+}
+.view_comments_content{
+	text-align: left;
+	margin: 0 20px;
+
+}
+
+.view_comments_time{
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+}
+.post_comments_comment{
+	clear: both;
+	float:left;
+}
+.post_comments_comment textarea{
+	width: 400px;
+	height: 100px;
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.post_comments_comment input{
+	float: left;
+	clear: left;
+	margin: 5px 0 0 20px;
+}
+/* kommentar stil */
+.view_comments_comments{
+	float: right;
+	clear: right;
+	width: 476px;
+	text-align: left;
+	border: 1px solid black;
+	border-bottom: none;
+	
+}
+#view_comments_head{
+	
+	font-size: 9px;
+	border-bottom: 1px solid black;
+	background: #333;
+	color: #eee;
+	
+}
+#view_comments_head p{
+	
+	font-size: 9px;
+	text-align: right;
+	margin: 0 2px 0 0;
+
+	
+}
+#view_comments_user{
+	width: 135px;
+	min-height: 145px;
+	float: left;
+	font-size: 11px;
+	border-right: 1px solid black;
+
+	
+}
+#view_comments_user p, #view_comments_user h3{
+	
+	margin: 3px 0 0 5px;
+	
+}
+/* GRANSKNING AV ARTIKLAR */
+#checkup_posts_div{
+	border: 1px black solid;
+	width: 900px;
+	margin: 50px auto 50px auto;
+	background-color: #fff;
+}
+#checkup_post_title{
+	padding: 5px 0;
+	background-image: url(pics/topmenu_bg2.png);
+	background-repeat: repeat-x;
+	background-color: #020202;
+	text-align: center;
+	color: #fff;
+	}
+#checkup_post_desc{
+
+}
+#checkup_post_content{
+
+	margin: 0;
+	padding: 15px;
+	float: left;
+
+}
+#checkup_post_comment{
+
+}
+#checkup_post_time{
+
+	font-size: 9px;
+	float: right;
+	margin: 0 2px 0 0;
+
+}
+
+
+#checkup_post_div p, #checkup_post_div h1{
+	color: #000 !important;
+	text-decoration: none;
+	font-weight: 0;
+	font-family: Impact, sans-serif;
+	}
+/*VISNING VID SÖKNING*/
+#view_search_res{
+	float: left;
+	border: 1px black solid;
+	width: 450px;
+	background-color: #ddd;
+	text-align: left;
+	padding: 10px;
+}
+#view_search_res h4 a:link, #view_search_res h4 a:visited {
+	color: #323232 !important;
+	text-decoration: underline;
+	font-family: arial, sans-serif;
+	}
+#view_search_res h4 a:active, #view_search_res h4 a:hover {
+	text-decoration: none;
+	font-weight: bold;	
+	}	
+#view_search_res p a:link, #view_search_res p a:visited {
+	color: #000 !important;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	
+	}
+#view_search_res p a:active, #view_search_res p a:hover {
+	text-decoration: underline;
+	}	

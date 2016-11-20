@@ -1,0 +1,579 @@
+@import url('/admin_mod/admin_style.css');
+@import url('second_style.css');
+
+/* GENERELLA STILAR */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+html, body {
+	font-size: 12pt;
+	font-family: verdana, sans-serif;
+	background-color: #CCC;
+	cursor: default;
+	color: #000;
+	margin: auto;
+}
+
+body{
+	margin: 0 auto;
+	width: 982px;
+}
+
+a:link, a:active, a:visited {
+	color: #369;
+	text-decoration: underline;
+}
+a:hover {
+	color: #f37a2b;
+	text-decoration: none;
+}
+textarea {
+	width: 99%;
+	height: 200px;
+	font-size: 9pt !important;
+	font-family: Verdana, sans-serif !important;
+}
+input[type="text"]{
+	
+
+	height: 21px;
+
+	
+}
+input[type="password"]{
+	
+
+	height: 21px;
+	
+}
+
+/* pagination style */
+.pagin {
+padding: 2px 0;
+margin: 0;
+font-family: "Verdana", sans-serif;
+font-size: 7pt;
+font-weight: bold;
+}
+.pagin * {
+padding: 2px 6px;
+margin: 0;
+}
+.pagin a {
+border: solid 1px #666666;
+background-color: #EFEFEF;
+color: #666666;
+text-decoration: none;
+}
+.pagin a:visited {
+border: solid 1px #666666;
+background-color: #EFEFEF;
+color: #60606F;
+text-decoration: none;
+}
+.pagin a:hover, .pagin a:active {
+border: solid 1px #CC0000;
+background-color: white;
+color: #CC0000;
+text-decoration: none;
+}
+.pagin span {
+cursor: default;
+border: solid 1px #808080;
+background-color: #F0F0F0;
+color: #B0B0B0;
+}
+.pagin span.current {
+border: solid 1px #666666;
+background-color: #666666;
+color: white;
+}
+
+/* HEADER */
+#header{
+	border: 1px black solid;
+	height: 80px; /* Ändra height med meny ovanför header och lista på heta ämnen höger */
+	width: 978px;
+	background-color: #b8b8b8;
+	margin: auto;
+	float: left;
+
+	}
+#header img{
+	float: left;
+	border-right: 1px black solid;
+}
+.header_list{
+	height: 80px;
+	width: 131px;
+	border-left: 1px black solid;
+	float: right;
+	background: #fff;
+	font-size: 13px;
+}
+.header_list_title{
+	text-align: center;
+	background: #121212;
+	color: #ddd;
+	font-weight: 600;
+}
+.header_list_posts{
+	background: #fff;
+	font-size: 11px;
+	margin: 1px 0 0 3px;
+	
+}
+.header_list_posts a:link{
+	font-family: monospace;
+}
+/* HEADER MENY */
+#banner_javel{
+	float: left;
+	height: 120px;
+
+}
+#main_menu{
+	height: 31px;
+	width: 978px;
+	background-image: url(pics/topmenu_bg2.png);
+	background-repeat: repeat-x;
+	background-color: #020202;
+	border: 1px solid #000;
+	margin: auto;
+	float: left;
+	clear: both;
+	}
+#main_menu ul{
+	list-style: none;
+	float:left;
+	height: 31px;
+}
+#main_menu ul li{
+	display: inline;
+	margin: 3px;
+	float: left;
+
+	}
+#main_menu ul li a:link, #main_menu ul li a:visited, #main_menu ul li a:hover {
+	text-decoration: none;
+	padding: 3px 7px 3px 7px;
+	border-right: 1px solid #ccc;	
+	font-size: 20px;
+
+	}
+#main_menu ul li a:link, #main_menu ul li a:visited {
+	color: #ddd;
+	}
+#main_menu ul li a:active, #main_menu ul li a:hover {
+	color: #c71809;
+	}	
+#main_menu  fieldset{
+	height: 31px;
+	border: none;
+	float: right;
+}
+#main_menu input[type="text"], #main_menu input[type="password"]{
+	
+	margin: 2px 0 0 0;
+	width: 130px;
+    height:19px;
+    line-height:27px;
+    text-indent:4px;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    color:#000;
+    background: #fbfbfb;
+    border:solid 1px #999;
+ 
+  
+}
+#main_menu input[type="submit"]{
+	background-image: url(pics/loggain.png);
+	font-family: arial;
+	font-weight: bold;
+}
+
+	
+/* MAIN CONTENT, INDEX */
+#main_content{
+	border: 1px black solid;
+	width: 978px;
+	margin: auto;
+	background-color: #313131;
+	float: left;
+}
+
+/* vänster */
+
+.side_div{
+	width: 120px;
+	float:left;
+}
+.side_menu{
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #eee;
+	border: none;
+	letter-spacing: 1px;
+	text-align: center;
+	
+	background: #121212;
+	border: 1px solid #cdcdcd;
+
+}
+.side_menu  fieldset{
+	height: 30px;
+	border: none;
+}
+
+.side_menu input[type="text"]{
+	
+	margin: 5px 0 5px 1px;
+	width: 75px;
+    height:18px;
+    line-height:27px;
+    text-indent:4px;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    color:#121212;
+     background: #fbfbfb;
+    border:solid 1px #999;
+}
+}
+.side_menu input[type="text"], .side_meny input[type="submit"]{
+	margin: 5px 0;
+}
+
+.side_menu ul li{
+	list-style: none;
+	padding: 3px 0 1px 0;
+	border-bottom: 1px solid #111;
+	margin: auto;
+	background-image: url(pics/sidemenu_bg.png);
+	background-repeat: repeat-x;
+}
+.side_menu ul li a:link, .side_menu ul li a:visited, .side_menu ul li a:hover {
+	text-decoration: none;
+	font-size: 17px;
+	color: #232323;
+	}
+.side_menu ul li a:active, .side_menu ul li a:hover {
+	text-decoration: underline;
+	color: #121212;
+	font-weight: 700;
+	}	
+#likebox{
+	float: left;
+	margin: 5px 0;
+	background-color: #fff;
+}
+
+/* mitten */
+
+#middle_div{
+	border: 1px black solid;
+	width: 606px;
+	float: left;
+}
+#banner_640{
+	background-image: url(pics/banner_606.png);
+	width: 606px;
+	height: 100px;
+	margin: auto;
+	}
+
+/* höger */
+
+#side_menu_right{
+	width: 250px;
+	float: left;
+}
+
+#allow{
+	width: 248px;
+	border: 1px solid black;
+	}
+.banner_250{
+	width: 250px;
+	height: 250px;
+	float: right;
+	background-image: url(pics/250_test.jpg);
+}
+
+/* POSTA ARTIKEL   */
+
+#post_thread {
+	width: 978px;
+	border: 1px solid black;
+	background-color: #333;
+	float: left;
+}
+#post_thread fieldset {
+	margin: 15px auto;
+	width: 750px;
+	background-color: #ddd;
+	
+    padding: 10px;
+	}
+#post_thread  .mceEditor{
+	float: right;
+	margin-top: 20px;
+}
+.post_thread_text {
+	width: 500px;
+	height: 22px;
+	float: right;
+}
+
+/* POPULÄRA NYHETER */
+#table_list {
+	border: 1px black solid;
+	width: 978px;
+	margin: auto;
+	background-color: #444;
+	float:left;
+
+	
+	}
+#table_list table{
+	margin: auto;
+	border-left: 1px solid black;
+	border-right:1px solid black;
+	width: 514px;
+	background-color: #232323;
+}
+#table_list th {
+	font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #eee;
+	border: none;
+	letter-spacing: 1px;
+
+	text-align: center;
+	padding: 2px;
+	background: #333;
+}
+#table_list tr {
+	border: 1px black solid;
+	background-color: #fff;
+}
+#table_list td {
+	border: none;
+	background: #fff;
+	padding: 4px;
+	color: #6D929B;
+	text-align: left;
+}
+#table_list td a{
+	
+}
+#table_list td a:link, #table_list td a:visited, #table_list td a:hover {
+	text-decoration: none;
+	padding: 3px 7px 3px 7px;	
+	font-size: 16px;
+	font-weight: 600;
+	}
+#table_list td a:link, #table_list td a:visited {
+	color: #111;
+	}
+#table_list td a:active, #table_list td a:hover {
+	color: #c71809;
+	text-decoration: underline;
+	}	
+/*---POPULÄRA NYHETER VISA ARTIKEL + SIDO TABELL RANKING-----*/
+
+#view_comments{
+	border: 1px black solid;
+	width: 978px;
+	margin: auto;
+	float: left;
+	background-color: #333;
+}
+
+#right_list{
+	border: 1px solid black;
+	width: 298px;
+
+	float: right;
+}
+#right_list table{
+	margin: auto;
+	border-left: 1px solid black;
+	border-right:1px solid black;
+	width: 298px;
+	background-color: #232323;
+}
+#right_list th {
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #eee;
+	border: none;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 3px;
+	background: #333;
+}
+#right_list tr {
+	border: 1px black solid;
+	background-color: #fff;
+}
+#right_list td {
+	border: none;
+	background: #fff;
+	padding: 4px;
+	color: #6D929B;
+	text-align: left;
+}
+#right_list td a{
+	
+}
+#right_list td a:link, #table_list td a:visited, #table_list td a:hover {
+	text-decoration: none;
+	padding: 3px 7px 3px 7px;	
+	font-size: 16px;
+	font-weight: 600;
+	}
+#right_list td a:link, #table_list td a:visited {
+	color: #111;
+	}
+#right_list td a:active, #table_list td a:hover {
+	color: #c71809;
+	text-decoration: underline;
+	}	
+/* GRANSKNING RÖRIG SKIT */
+
+#checkup_content{
+	width: 978px;
+	border: 1px black solid;
+	float:left;
+/*-TVÅ STYCKEN-*/
+}
+
+#checkup_content{
+	width: 978px;
+	border: 1px black solid;
+	margin: auto;
+	float: left;
+	/*-TVÅ STYCKEN-*/
+}
+#checkup_content table{
+	margin: auto;
+	border-left: 1px solid black;
+	border-right:1px solid black;
+	width: 489px;
+	background-color: #232323;
+	float: left;
+
+}
+#checkup_content th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #eee;
+	border: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 3px;
+	background: #333;
+}
+#checkup_content tr {
+	border: 1px black solid;
+	background-color: #fff;
+}
+#checkup_content td {
+	border: none;
+	background: #fff;
+	padding: 4px;
+	color: #6D929B;
+	text-align: left;
+}
+#checkup_content td a{
+	
+}
+#checkup_content td a:link, #checkup_content td a:visited, #checkup_content td a:hover {
+	text-decoration: none;
+	padding: 3px 7px 3px 7px;	
+	font-size: 16px;
+	font-weight: 600;
+	}
+#checkup_content td a:link, #checkup_content td a:visited {
+	color: #111;
+	}
+#checkup_content td a:active, #checkup_content td a:hover {
+	color: #c71809;
+	text-decoration: underline;
+	}
+/*REGISTRERING*/
+#register{
+	border: 1px black solid;
+	height: 300px;
+	width: 978px;
+	float:left;
+
+	background-color: #333;
+	}
+#register fieldset {
+	margin: 15px auto;
+	width: 750px;
+	background-color: #ddd;
+	
+    padding: 10px;
+	}
+#register label, #register input{
+    display: block;
+    width: 150px;
+    float: left;
+    margin-bottom: 10px;
+}
+#register input[type="submit"]{
+	width: 120px;
+	margin-top: 10px;
+	margin-left: 205px;
+}
+#register  label{
+    text-align: right;
+    padding-right: 20px;
+}
+ 
+#register  br {
+    clear: left;
+}
+/* ANVÄNDAR INFO */
+
+#user_info{
+	border: 1px solid black;
+	width: 978px;
+	float: left;
+}
+#user_menu{
+	width: 150px;
+	float: left;
+	border: 1px solid #000;
+}
+
+/* FOOTER + (Random?)*/
+#footer{
+	border: 1px black solid;
+	height: 25px;
+	width: 978px;
+	margin: auto;
+	background-color: #313131;
+	float: left;
+	}
+#submit_content{
+	border: 1px black solid;
+	width: 978px;
+	margin: auto;
+	float: left;
+}
+/* sökning */
+#search_res{
+	margin: auto;
+	float: left;
+	border: 1px black solid;
+	width: 978px;
+
+}

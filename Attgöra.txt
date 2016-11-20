@@ -1,0 +1,22 @@
+﻿Att göra:
+
+Komma i bukt med inproduktiviteten och bara sluta skjuta upp o ta tag i saker
+
+captcha
+Skapa bild anpassad efter post_rank som sker vid acceptering av artikel och även lägga in upload_by_user eller liknbade
+Instruktionsvideo - skriva artiklar
+SÄKRA ALLT, VALIDERING!
+Ordet är fritt - granskning.
+
+Kategorier
+
+Väder, (tv-tablå).
+
+Adminpanel med title + postrank 
+Minska ned storleken på bilder + ladda upp flera bilder samtidigt och uppladningsfotomeny
+Kontoöversikt. "Publicerade artiklar: x, klicka x för att se alla och därefter info om views och kommentarer
+Email-bekräftelse.
+Cookie för inloggning och chockartiklar
+Skriva användarvillikor, villkor vid publicernig, villkor vid uppladning av bild och annan info.
+GET-datan
+Skicka insändare sms
